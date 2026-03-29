@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.ipynb_checkpoints/
+.env
+venv/
+.venv/
+
+# API keys — never commit these
+*.key
+secrets.py
+config.py
+
+# NLTK local data (large, re-downloadable)
+nltk_data/
+
+# OS
+.DS_Store
+Thumbs.db
